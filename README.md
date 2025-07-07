@@ -13,14 +13,16 @@ Traditional credit scoring methods often fail to evaluate applicants with limite
 
 ---
 
-## 📂 Project Structure
+## 📂 Repository Contents
 ```
+├── data/ #contains all the tables from dataset and new generated ones from processing files
 ├── EDA.ipynb # Exploratory Data Analysis
+├── Feature_engineering.ipynb # joining important aggregated features from different datasets
 ├── Data_preprocessing.ipynb # Cleaning, Imputation, Encoding
-├── Feature_selection.ipynb # Feature importance, correlation filtering
 ├── Baseline_model.ipynb # Initial model using apllication train data
 ├── Model_Training_Eval.ipynb # Final models with evaluation and tuning
-├── data/ #contains all the tables from dataset and new generated ones from processing files
+├── Home credit default .pptx # Presenatation summarizing my methodology and results
+├── Table representations.png # Image showing the different datasets and their keys
 └── README.md # Project overview and documentation
 ```
 
